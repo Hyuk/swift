@@ -30,22 +30,35 @@ struct ContentView: View {
 ```
 
 ### Primitive Views
-* Text()
-* Image()
-* Color()
+* Text("Hello World")
+* Image("background")
+* Color(.white), Color(.systemBlue)
 * Spacer()
 * Circle()
 * Rectangle()
 * Capsule()
 * Divider()
+* VStack(spacing: 10)
+* HStack(spacing: 10)
+* ZStack
 
 ### View Modifiers
+* .rotationEffect(.degrees(30))
+
+### View Modifiers for Text()
 * .fontWeight(.bold)
 * .font(.title)
 * .background("background")
 * .background(Color(.systemBlue))
 * .frame(width: 300, height: 300)
 * .foregroundColor(Color(.white))
+
+### View Modifiers for Image()
+* .resizable()
+* .aspectRatio(contentMode: .fill)
+* .frame(width: 100, height: 100)
+* .cornerRadius(10)
+* .clipShape(Circle())
 
 ### Add an APP icon
 * [App Icon Generator](https://appicon.co/) 
