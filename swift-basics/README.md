@@ -1,7 +1,51 @@
 # Swift Basics
 
+* [Basic Structure](#basic-structure)
 * [Add an App icon](#add-an-app-icon)
 * [Add an Image](#add-an-image)
+
+### Basic Structure
+```swift
+import SwiftUI
+
+@main
+struct HelloWorldApp: App {
+  var body: some Scene {
+    WindowGroup {
+      ContentView() // Call ContentView.swift
+    }
+  }
+}
+```
+
+* ContentView.swift
+```swift
+import SwiftUI
+
+struct ContentView: View {
+  var body: some View {
+    Text("Hello World")
+  }
+}
+```
+
+### Primitive Views
+* Text()
+* Image()
+* Color()
+* Spacer()
+* Circle()
+* Rectangle()
+* Capsule()
+* Divider()
+
+### View Modifiers
+* .fontWeight(.bold)
+* .font(.title)
+* .background("background")
+* .background(Color(.systemBlue))
+* .frame(width: 300, height: 300)
+* .foregroundColor(Color(.white))
 
 ### Add an APP icon
 * [App Icon Generator](https://appicon.co/) 

@@ -8,7 +8,7 @@ import SwiftUI
 struct HelloUniverseApp: App {
   var body: some Scene {
     WindowGroup {
-      CustomView()
+      CustomView() // Call ContentView.swift
     }
   }
 }
