@@ -12,4 +12,4 @@ iOS 14 / Swift 5
   * Life Cycle: SwiftUI App
   * Language: Swift
 
-5. [Swift Project](/swift-project/README.md)
+5. [Swift Project](/swift-projects/README.md)
