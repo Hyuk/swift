@@ -52,6 +52,7 @@ struct ContentView: View {
 * .background(Color(.systemBlue))
 * .frame(width: 300, height: 300)
 * .foregroundColor(Color(.white))
+* .padding()
 
 ### View Modifiers for Image()
 * .resizable()

@@ -7,3 +7,5 @@
 * [Vision Board](/swift-projects/swift-projects/vision-board.md)
 
 * [Connections](/swift-projects/swift-projects/connections.md)
+
+* [Push Up Counter](/swift-projects/swift-projects/pushup-counter.md)
