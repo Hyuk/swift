@@ -8,11 +8,3 @@ struct HelloWorldApp: App {
     }
   }
 }
-
-import SwiftUI
-
-struct ContentView: View {
-  var body: some View {
-    
-  }
-}

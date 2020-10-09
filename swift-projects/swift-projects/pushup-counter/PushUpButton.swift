@@ -9,9 +9,9 @@ struct PushUpButton: View {
             .font(.largeTitle)
             .fontWeight(.bold)
             .foregroundColor(Color(.white))
-            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: .center)
+            .frame(width: 100, height: 100, alignment: .center)
             .background(Color(.systemYellow))
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .clipShape(Circle())
             .onTapGesture(perform: pushUpRobot.addOnePushUp)
             .onLongPressGesture(perform: pushUpRobot.resetPushUps)
     }
